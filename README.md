@@ -14,7 +14,7 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 
 ## Overview
 
-Mobile-first responsive Meet Landing Page
+Mobile-first Responsive Meet Landing Page
 
 ### Screenshot
 
