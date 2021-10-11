@@ -426,18 +426,19 @@ img {
       &--desktop {
         display: block;
         position: absolute;
-        width: 30%;
+        width: 25%;
         max-width: 39.4rem;
       }
 
       &--left {
-        top: 0;
+        top: 30%;
         left: -2.3%;
         right: auto;
+        transform: translateY(-50%);
       }
 
       &--right {
-        bottom: 50%;
+        bottom: 62.5%;
         transform: translateY(50%);
         right: -2.3%;
         left: auto;
@@ -496,6 +497,26 @@ img {
 
     .btn--secondary {
       padding: 1.6rem 4rem;
+    }
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .hero {
+    &__image {
+      &--desktop {
+        width: 30%;
+      }
+
+      &--left {
+        top: 4%;
+        transform: none;
+      }
+
+      &--right {
+        bottom: 54%;
+        transform: translateY(50%);
+      }
     }
   }
 }

@@ -424,16 +424,18 @@ img {
   .hero__image--desktop {
     display: block;
     position: absolute;
-    width: 30%;
+    width: 25%;
     max-width: 39.4rem;
   }
   .hero__image--left {
-    top: 0;
+    top: 30%;
     left: -2.3%;
     right: auto;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
   .hero__image--right {
-    bottom: 50%;
+    bottom: 62.5%;
     -webkit-transform: translateY(50%);
             transform: translateY(50%);
     right: -2.3%;
@@ -484,6 +486,22 @@ img {
   }
   .footer .btn--secondary {
     padding: 1.6rem 4rem;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .hero__image--desktop {
+    width: 30%;
+  }
+  .hero__image--left {
+    top: 4%;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .hero__image--right {
+    bottom: 54%;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
   }
 }
 
