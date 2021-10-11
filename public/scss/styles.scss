@@ -420,7 +420,7 @@ img {
   .hero {
     position: relative;
     overflow: hidden;
-    padding-top: 4.7rem;
+    padding-top: 4.3rem;
     padding-bottom: 11rem;
     margin-top: 6.1rem;
 
@@ -456,6 +456,10 @@ img {
       margin-bottom: 3.4rem;
       width: 100%;
       max-width: 44.5rem;
+    }
+
+    &__content {
+      max-width: 47.5rem;
     }
   }
 
@@ -515,12 +519,12 @@ img {
       }
 
       &--left {
-        top: 4%;
+        top: 2%;
         transform: none;
       }
 
       &--right {
-        bottom: 54%;
+        bottom: 52%;
         transform: translateY(50%);
       }
     }
