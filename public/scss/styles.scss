@@ -3,7 +3,9 @@ $secondary: hsl(268, 34, 53);
 $dark: hsl(240, 21, 20);
 $light: hsl(240, 10, 57);
 $primary-active: hsl(192, 90, 77);
+$primary-hover: hsl(192, 54%, 64%);
 $secondary-active: hsl(268, 100, 86);
+$secondary-hover: hsl(268, 55%, 71%);
 $white: hsl(0, 0, 98);
 
 *,
@@ -25,11 +27,12 @@ body {
   font-weight: 500;
   background: $white;
   color: $light;
-  line-height: 1.4;
+  line-height: 1.63;
 }
 
 h1 {
   color: $dark;
+  line-height: 1.1;
 }
 
 img {
@@ -37,5 +40,96 @@ img {
 }
 
 .container {
-  max-width: 1111px;
+  max-width: 111.1rem;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  width: max-content;
+  font-size: 1.6rem;
+  font-weight: 900;
+  padding: 1em;
+  color: #fff;
+  border-radius: 30px;
+  transition: background 0.15s ease-in-out;
+  cursor: pointer;
+
+  &--primary {
+    background: $primary;
+    padding: 1em 2.5em;
+
+    &:hover {
+      background: $primary-hover;
+    }
+  }
+
+  &--secondary {
+    background: $secondary;
+    padding: 1em 1.81em;
+
+    &:hover {
+      background: $secondary-hover;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__logo {
+    margin-top: 4.8rem;
+  }
+}
+
+.hero {
+  padding: 5.4rem 0;
+  overflow: hidden;
+
+  &__image {
+    &--mobile {
+      display: block;
+      position: relative;
+      left: 50%;
+      margin-bottom: 4.8rem;
+      width: 110.4%;
+      max-width: none;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__content {
+    text-align: center;
+    width: 100%;
+    max-width: 33rem;
+    margin: 0 auto;
+  }
+
+  &__heading {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2.4rem;
+    font-size: 4rem;
+  }
+
+  &__description {
+    margin-bottom: 2rem;
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .btn--primary {
+      margin-bottom: 1.6rem;
+
+      & > span {
+        color: $primary-active;
+      }
+    }
+  }
 }
