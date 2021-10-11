@@ -411,6 +411,9 @@ img {
   .container {
     max-width: 96rem;
   }
+  .header__logo {
+    margin-top: 8rem;
+  }
   .hero {
     position: relative;
     overflow: hidden;
