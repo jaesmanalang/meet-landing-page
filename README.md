@@ -18,15 +18,18 @@ Mobile-first responsive Meet Landing Page
 
 ### Screenshot
 
+1440px
 ![1440](./1440.png)
+
+1920px
 ![1920](./screenshot.png)
 
 Screenshot for 1920px and 1440px screen width.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobilefirst-responsive-meet-landing-page-TH-6xYVwf)
+- Live Site URL: [Add live site URL here](https://meet-landing-page-tau-nine.vercel.app/)
 
 ### Built with
 
@@ -38,4 +41,4 @@ Screenshot for 1920px and 1440px screen width.
 ## Author
 
 - Website - [James Manalang](https://jaesmanalang.github.io/portfolio/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jaesmanalang)
+- Frontend Mentor - [@jaesmanalang](https://www.frontendmentor.io/profile/jaesmanalang)
