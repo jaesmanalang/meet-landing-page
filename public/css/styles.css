@@ -451,6 +451,12 @@ img {
   .feature__images {
     margin-top: 6.4rem;
     margin-bottom: 8rem;
+    gap: 3rem;
+  }
+  .feature__description {
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer__bg {
     padding: 11.5rem 0;
