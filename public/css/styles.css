@@ -261,7 +261,7 @@ img {
   position: relative;
   padding-top: 9.2rem;
   padding-bottom: 7.2rem;
-  background: rgba(77, 150, 168, 0.8);
+  background: rgba(77, 150, 168, 0.9);
 }
 
 .footer__bg::before {
@@ -374,7 +374,6 @@ img {
     position: relative;
     padding-top: 9.2rem;
     padding-bottom: 7.2rem;
-    background: rgba(77, 150, 168, 0.8);
   }
   .footer__bg::before {
     content: '';
@@ -417,7 +416,7 @@ img {
   .hero {
     position: relative;
     overflow: hidden;
-    padding-top: 4.3rem;
+    padding-top: 4rem;
     padding-bottom: 11rem;
     margin-top: 6.1rem;
   }
@@ -500,12 +499,12 @@ img {
     width: 30%;
   }
   .hero__image--left {
-    top: 2%;
+    top: 0;
     -webkit-transform: none;
             transform: none;
   }
   .hero__image--right {
-    bottom: 52%;
+    bottom: 50%;
     -webkit-transform: translateY(50%);
             transform: translateY(50%);
   }
