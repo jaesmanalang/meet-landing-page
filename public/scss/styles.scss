@@ -1,0 +1,41 @@
+$primary: hsl(192, 37, 48);
+$secondary: hsl(268, 34, 53);
+$dark: hsl(240, 21, 20);
+$light: hsl(240, 10, 57);
+$primary-active: hsl(192, 90, 77);
+$secondary-active: hsl(268, 100, 86);
+$white: hsl(0, 0, 98);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background: $white;
+  color: $light;
+  line-height: 1.4;
+}
+
+h1 {
+  color: $dark;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1111px;
+}
